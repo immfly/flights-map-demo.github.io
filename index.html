@@ -4,7 +4,7 @@
 
 <head>
     <title>Demo @immfly/flights-map</title>
-    <script src="node_modules/@immfly/radar-test-2/lib.js"></script>
+    <script src="node_modules/@immfly/flights-map/lib.js"></script>
 </head>
 
 <div style="height: 100vh; width: 100%;">
@@ -153,15 +153,7 @@
             color: '#DA291C'
         }
     ]
-    setTimeout(function() {
-        document.getElementsByTagName('flights-map')[0].flights = flights
-    }, 200)
-    setTimeout(function() {
-        document.getElementsByTagName('flights-map')[0].flights = flights.slice(0, 10)
-    }, 10000)
-    setTimeout(function() {
-        document.getElementsByTagName('flights-map')[0].flights = [flights[0], flights[6], flights[14]]
-    }, 15000)
+    document.getElementsByTagName('flights-map')[0].flights = flights
 </script>
 
 </body>

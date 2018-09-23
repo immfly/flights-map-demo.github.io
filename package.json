@@ -9,6 +9,6 @@
   "author": "Albert Pérez Farrés",
   "license": "MIT",
   "dependencies": {
-    "@immfly/flights-map": "^1.0.1"
+    "@immfly/flights-map": "^1.0.2"
   }
 }
