@@ -1,0 +1,14 @@
+{
+  "name": "flights-map-demo",
+  "version": "1.0.0",
+  "description": "Demo webpage for @immfly/flights-map package",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Pérez Farrés",
+  "license": "MIT",
+  "dependencies": {
+    "@immfly/radar-test-2": "^1.0.27"
+  }
+}
